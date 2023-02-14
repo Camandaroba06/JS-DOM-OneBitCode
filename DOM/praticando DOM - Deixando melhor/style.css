@@ -1,0 +1,42 @@
+* {
+  background-color: grey;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+#formulario {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+input::placeholder {
+  color: darkgrey;
+}
+input {
+  display: block;
+
+  border-radius: none;
+}
+.btn-countainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0%;
+  margin: 0%;
+}
+button {
+  background-color: blanchedalmond;
+  border: none;
+  border-radius: 2rem;
+  width: 6rem;
+  height: 2rem;
+}
+button:hover {
+  background-color: green;
+}
